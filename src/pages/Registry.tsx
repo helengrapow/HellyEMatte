@@ -11,15 +11,15 @@ const Registry = () => {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
 
           <h1 className="text-4xl md:text-6xl font-serif text-black mb-6">
-            Wedding Registry
+            Wedding Gift
           </h1>
 
           <p className="text-xl text-black max-w-3xl mx-auto leading-relaxed mb-6">
-            Your presence at our wedding is the greatest Registry of all.
+            Your presence at our wedding is the greatest gift of all.
           </p>
 
           <p className="text-xl text-black max-w-3xl mx-auto leading-relaxed mb-12">
-            If you wish to honor us with a Registry, you can contribute, in any amount,
+            If you wish to honor us with a gift, you can contribute, in any amount,
             to the honeymoon of our dreams in Japan!
           </p>
 
@@ -57,6 +57,23 @@ const Registry = () => {
     </p>
 
   </div>
+</div>
+<div className="mt-16 flex justify-center">
+    <img
+      src="public/images/honeymoon6.JPEG"
+      alt="Our honeymoon in Japan"
+      className="rounded-xl shadow-lg w-full max-w-3xl mx-auto"
+    />
+</div>
+<div className="mt-16 flex justify-center">
+    <p className="mt-6 text-xl font-serif text-black">
+      Japan, here we come!
+    </p>
+</div>
+<div className="mt-16 flex justify-center">
+    <p className="mt-6 text-xl font-serif text-black">
+      
+    </p>
 </div>
 </div>
   );

@@ -9,10 +9,9 @@ const Navbar = () => {
 
   const navItems = [
     { name: 'Home', path: '/' },
-    { name: 'Our Story', path: '/story' },
-    { name: 'Wedding Details', path: '/details' },
-    { name: 'Photo Gallery', path: '/gallery' },
-    { name: 'Registry', path: '/registry' },
+    { name: 'Logistics', path: '/story' },
+    { name: 'Wedding Program', path: '/details' },
+    { name: 'Gift', path: '/registry' },
     { name: 'RSVP', path: '/rsvp' },
   ];
 
