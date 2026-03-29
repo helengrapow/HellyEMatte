@@ -20,7 +20,7 @@ const Registry = () => {
 
           <p className="text-xl text-black max-w-3xl mx-auto leading-relaxed mb-12">
             If you wish to honor us with a gift, you can contribute, in any amount,
-            to the honeymoon of our dreams in Japan!
+            to the honeymoon of our dreams!
           </p>
 
         </div>
@@ -60,14 +60,14 @@ const Registry = () => {
 </div>
 <div className="mt-16 flex justify-center">
     <img
-      src="public/images/honeymoon6.JPEG"
-      alt="Our honeymoon in Japan"
+      src="public/images/honeymoon_final.JPEG"
+      alt="Our honeymoon (destination to be announced)"
       className="rounded-xl shadow-lg w-full max-w-3xl mx-auto"
     />
 </div>
 <div className="mt-16 flex justify-center">
     <p className="mt-6 text-xl font-serif text-black">
-      Japan, here we come!
+      
     </p>
 </div>
 <div className="mt-16 flex justify-center">

@@ -8,22 +8,22 @@ const QuickDetails = () => {
     {
       icon: Calendar,
       title: 'Wedding Date',
-      info: 'June 6, 2026', // CUSTOMIZE: Replace with your wedding date
+      info: 'September 12, 2026', // CUSTOMIZE: Replace with your wedding date
     },
     {
       icon: Clock,
       title: 'Ceremony Time',
-      info: '6:30', // CUSTOMIZE: Replace with your ceremony time
+      info: '12:30', // CUSTOMIZE: Replace with your ceremony time
     },
     {
       icon: MapPin,
       title: 'Venue',
-      info: 'Stonehaven at the Milestone in New Braunfels, TX', // CUSTOMIZE: Replace with your venue name and location
+      info: 'Fra Viaco', // CUSTOMIZE: Replace with your venue name and location
     },
     {
       icon: Users,
       title: 'Dress Code',
-      info: 'Formal (Tie optional)', // CUSTOMIZE: Replace with your dress code
+      info: 'Smart casual (we care more about how you feel than how you look)', // CUSTOMIZE: Replace with your dress code
     },
   ];
 

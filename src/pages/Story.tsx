@@ -95,7 +95,8 @@ const Story = () => {
               Hotel Recommendations
             </h2>
             <p className="text-lg text-black max-w-2xl mx-auto">
-              We’ve reserved a room at the JW Marriott for our wedding night, and anyone who would like to stay there is very welcome to do so.
+              We will sleep at the Agriresort of the Ceremony. Unfortunately, the place there is very limited. 
+              We will guarantee the shuttle to the locations below:
             </p>
           </div>
 
@@ -103,8 +104,8 @@ const Story = () => {
             <div className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow border border-pale-yellow">
               <div className="h-48 overflow-hidden">
                 <img
-                  src="https://images.unsplash.com/photo-1564501049412-61c2a3083791?w=500&h=300&fit=crop&crop=center"
-                  alt="JW Marriott San Antonio Hill Country Resort & Spa"
+                  src="public/images/Valentano.PNG"
+                  alt="Town of Valentano"
                   className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
                 />
               </div>
@@ -112,25 +113,27 @@ const Story = () => {
                 <div className="flex items-center mb-4">
                   <Hotel className="w-5 h-5 text-[#7BA7BC] mr-2" />
                   <h3 className="text-xl font-semibold text-black">
-                    JW Marriott
+                    Valentano
                   </h3>
                 </div>
                 <div className="flex-grow flex items-center justify-center">
                   <p className="text-black text-center text-sm">
-                    Located about 30 minutes from the venue. One of the nicest hotels in San Antonio and home to the TPC San Antonio golf course.
+                    Located about 12 minutes from the venue, Valentano is the closest town. 
+                    You can find hotels and rooms on Booking and Airbnb. 
+                    There are also a few apartments from the venue owner that are not listed online — feel free to contact us if you’re interested.
                   </p>
                 </div>
                 <div className="flex justify-between items-center mt-4">
                   <span className="text-black font-medium text-lg">
-                    $400/night
+                    60/night
                   </span>
                   <a
-                    href="https://www.marriott.com/search/availabilityCalendar.mi?isRateCalendar=true&propertyCode=SATJW&isSearch=true&currency=&costTab=average#/0/"
+                    href="https://maps.app.goo.gl/pBwAcRF2DtZCAP2BA"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-sm bg-pale-yellow hover:bg-white border border-pale-yellow text-black px-4 py-2 rounded-full transition-colors"
                   >
-                    Book Now
+                    View on Map
                   </a>
                 </div>
               </div>
@@ -139,8 +142,8 @@ const Story = () => {
             <div className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow border border-pale-yellow">
               <div className="h-48 overflow-hidden">
                 <img
-                  src="https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?w=500&h=300&fit=crop&crop=center"
-                  alt="Courtyard by Marriott San Antonio Airport"
+                  src="public/images/AgriturismoPoggioilTufo.JPG"
+                  alt="Agriturismo Poggio Le Volpi"
                   className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
                 />
               </div>
@@ -148,25 +151,25 @@ const Story = () => {
                 <div className="flex items-center mb-4">
                   <Hotel className="w-5 h-5 text-[#7BA7BC] mr-2" />
                   <h3 className="text-xl font-semibold text-black">
-                    Courtyard Marriott
+                    Agriturismo Poggio il Tufo
                   </h3>
                 </div>
                 <div className="flex-grow flex items-center justify-center">
                   <p className="text-black text-center text-sm">
-                    A bit farther from the venue, but closer to the San Antonio airport. A convenient option if you want easier access to both.
+                    About 20 minutes from the venue, this agriturismo offers rooms and apartments surrounded by vineyards, with a swimming pool and breakfast included.
                   </p>
                 </div>
                 <div className="flex justify-between items-center mt-4">
                   <span className="text-black font-medium text-lg">
-                    $185/night
+                    60/night
                   </span>
                   <a
-                    href="https://www.marriott.com/reservation/rateListMenu.mi?dclid=CjkKEQjw6NrBBhCnsr3GzNuZ-dwBEiQAFJKSzdZYjaWswLT_FEGE6nioptaK-epr62qWQpHtc12vefe3w_wcB&gbraid=0AAAAAo3SzG6xw854UOJGzACxCA_PvgDel&gclid=CjwKCAjw6NrBBhB6EiwAvnT_rpIy08LjoDXH3ROE8WR-kpt8zwDWRpHO2f0yVJm2Xgcpk_sh3_Eq_RoCGC0QAvD_BwE"
+                    href="https://www.google.com/maps/place/Agriturismo+Poggio+al+Tufo/@42.6089131,11.6956498,16.42z/data=!4m9!3m8!1s0x13291f84a2c35001:0x3df951ecb7acb113!5m2!4m1!1i2!8m2!3d42.6085323!4d11.6967274!16s%2Fg%2F12mj_ld49!18m1!1e1?entry=ttu&g_ep=EgoyMDI2MDMxOC4xIKXMDSoASAFQAw%3D%3D"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-sm bg-pale-yellow hover:bg-white border border-pale-yellow text-black px-4 py-2 rounded-full transition-colors"
                   >
-                    Book Now
+                    View on Maps
                   </a>
                 </div>
               </div>
@@ -175,8 +178,8 @@ const Story = () => {
             <div className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow border border-pale-yellow">
               <div className="h-48 overflow-hidden">
                 <img
-                  src="https://images.unsplash.com/photo-1566073771259-6a8506099945?w=500&h=300&fit=crop&crop=center"
-                  alt="Hotel Emma San Antonio"
+                  src="public/images/tent.JPEG"
+                  alt="Camping Option"
                   className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
                 />
               </div>
@@ -184,25 +187,26 @@ const Story = () => {
                 <div className="flex items-center mb-4">
                   <Hotel className="w-5 h-5 text-[#7BA7BC] mr-2" />
                   <h3 className="text-xl font-semibold text-black">
-                    Hotel Emma
+                    Camping at the Venue
                   </h3>
                 </div>
                 <div className="flex-grow flex items-center justify-center">
                   <p className="text-black text-center text-sm">
-                    About 45 minutes from the venue. A good option if you plan to spend a little more time in San Antonio.
+                    A great option for the more adventurous and nature lovers. 
+                    Vans, campers, and tents are all welcome, and we also have a few tents available if needed.
                   </p>
                 </div>
                 <div className="flex justify-between items-center mt-4">
                   <span className="text-black font-medium text-lg">
-                    $560/night
+                    Free
                   </span>
                   <a
-                    href="https://be.synxis.com/?_gl=1*1nylehy*_gcl_au*MTQ1MDgyNjI4LjE3NDc4NzUxNzE.*_ga*MTM4ODYwMTk4MS4xNzQ3ODc1MTcy*_ga_0D7P5TR5JN*czE3NDg0ODUyMTkkbzIkZzEkdDE3NDg0ODUzMTkkajU0JGwwJGgxNzQxODE2MjE3&adult=2&arrive=2025-05-28&chain=10237&child=0&currency=USD&depart=2025-05-29&hotel=65605&level=hotel&locale=en-US&productcurrency=USD&rooms=1"
+                    href="https://www.google.com/maps/place/Fr%C3%A0+Viaco+AgriResort/@42.6090023,11.773743,17z/data=!3m1!4b1!4m9!3m8!1s0x1329211725a1e1bb:0x3448628d8157f66e!5m2!4m1!1i2!8m2!3d42.6090023!4d11.7763233!16s%2Fg%2F1td8mqrj?entry=ttu&g_ep=EgoyMDI2MDMxMS4wIKXMDSoASAFQAw%3D%3D"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-sm bg-pale-yellow hover:bg-white border border-pale-yellow text-black px-4 py-2 rounded-full transition-colors"
                   >
-                    Book Now
+                    View on Map
                   </a>
                 </div>
               </div>
@@ -216,30 +220,40 @@ const Story = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-serif text-black mb-4">
-              Travel Information
+              Shuttle Bus
             </h2>
           </div>
 
           <div className="max-w-4xl mx-auto bg-white rounded-xl shadow-lg p-8 border border-pale-yellow">
             <div className="space-y-8">
               <div>
-                <h3 className="text-xl font-semibold text-black mb-3">By Air</h3>
-                <p className="text-black">
-                  The nearest airport is Fiumicino Airport, about 2 hours from the venue and 15 minutes from the nearest town of Valentano. Perugia or Firenze also works, but the road wil be heavier.
-                </p>
+                 <p className="text-black">
+           A shuttle service will take you to and from the venue. 
+            We encourage guests to use it, as the road to the venue is unpaved, with no artificial lights, and driving at night can be difficult.
+            It also allows everyone to enjoy the celebration without worrying about drinking and driving.
+          </p>
               </div>
 
-              <div>
-                <h3 className="text-xl font-semibold text-black mb-3">By Car</h3>
-                <p className="text-black">
-                  If you are staying in or around Rome, the simplest route is north on , then right on . The venue is about 15 minutes from there, mind the route which is sterrata for the last 5 minutes.
-                </p>
-              </div>
+<div>
+          <h3 className="text-xl font-semibold text-black mb-3">
+            Arrival
+          </h3>
+          <p className="text-black">
+            Shuttle departures from Valentano and Agriturismo Poggio il Tufo.
+            The shuttle will bring guests to the venue.
+          </p>
+        </div>
 
               <div>
-                <h3 className="text-xl font-semibold text-black mb-3">Transportation</h3>
+                <h3 className="text-xl font-semibold text-black mb-3"> During the Event </h3>
                 <p className="text-black">
-                  We will be providing a shuttle service from and to the locations above. Please make sure to reserve a place to stay there if you want the shuttle service to take you to and back from the venue.
+                  The shuttle remains available on standby for guests who needs it.
+                </p>
+              </div>
+                 <div>
+                <h3 className="text-xl font-semibold text-black mb-3"> Evening / Return </h3>
+                <p className="text-black">
+                  Shuttle service back to the accommodations will run throughout the evening, so you can return whenever you prefer.
                 </p>
               </div>
             </div>

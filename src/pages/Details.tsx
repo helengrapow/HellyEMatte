@@ -178,7 +178,7 @@ const Details = () => {
                       </div>
                       <p className="text-black">
                         {/* CUSTOMIZE: Description */}
-                        Slow recovery and, for those who still have energy, we can meet for a swim in Lake Bozena!
+                        Slow recovery and, for those who still have energy, we can meet for a swim in Lake Bolzena!
                       </p>
                     </div>
                   </div>

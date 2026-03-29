@@ -25,7 +25,7 @@ const Navbar = () => {
           <Link to="/" className="flex items-center space-x-2 text-black font-serif text-xl font-bold">
             <Heart className="w-6 h-6 fill-sage-green text-sage-green" />
             {/* CUSTOMIZE: Replace with couple's names */}
-            <span>Ethan & Marlena</span>
+            <span>Helli & Matte</span>
           </Link>
 
           {/* Desktop Navigation */}
