@@ -151,7 +151,7 @@ const Story = () => {
               <div
                 className="h-48 bg-cover bg-center"
                 style={{
-                  backgroundImage: `url(${import.meta.env.BASE_URL}images/tent.jpeg)`,
+                  backgroundImage: `url(${import.meta.env.BASE_URL}images/tent.JPEG)`,
                 }}
               />
               <div className="p-6">
