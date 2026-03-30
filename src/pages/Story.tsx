@@ -1,4 +1,3 @@
-
 import React from 'react';
 import Navbar from '../components/Navbar';
 import { MapPin, Car, Hotel } from 'lucide-react';
@@ -35,7 +34,7 @@ const Story = () => {
               <div
                 className="w-full h-full min-h-[300px] bg-cover bg-center bg-no-repeat"
                 style={{
-                  backgroundImage: `url(${import.meta.env.BASE_URL}images/Venue.png)`,
+                  backgroundImage: `url(${import.meta.env.BASE_URL}images/venue.png)`,
                 }}
               />
             </div>
@@ -188,7 +187,7 @@ const Story = () => {
             <div className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow border border-pale-yellow">
               <div className="h-48 overflow-hidden">
                 <img
-                  src="public/images/tent.JPEG"
+                  src={`${import.meta.env.BASE_URL}images/tent.jpg`}
                   alt="Camping Option"
                   className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
                 />
