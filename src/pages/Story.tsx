@@ -29,14 +29,14 @@ const Story = () => {
           </div>
 
           <div className="bg-white rounded-xl shadow-xl overflow-hidden border border-pale-yellow">
-            <div className="md:w-1/2">
-              <div
-                className="w-full h-full min-h-[300px] bg-cover bg-center bg-no-repeat"
-                style={{
-                  backgroundImage: `url(${import.meta.env.BASE_URL}images/Venue.png)`,
-                }}
-              />
-            </div>
+              <div className="md:w-1/2">
+                <div
+                  className="w-full h-full min-h-[300px] bg-cover bg-center bg-no-repeat"
+                  style={{
+                    backgroundImage: `url(${import.meta.env.BASE_URL}images/Venue.png)`,
+                  }}
+                />
+              </div>
               <div className="p-8 md:w-1/2">
                 <h3 className="text-2xl font-semibold text-black mb-4">
                   Frà Viaco AgriResort
