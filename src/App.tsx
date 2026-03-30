@@ -19,7 +19,7 @@ const App = () => (
     <TooltipProvider>
       <Toaster />
       <Sonner />
-      <BrowserRouter>
+      <BrowserRouter><BrowserRouter basename="/HellyEMatte">
         <Routes>
           <Route path="/" element={<Index />} />
           <Route path="/story" element={<Story />} />
