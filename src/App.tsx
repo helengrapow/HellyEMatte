@@ -22,10 +22,10 @@ const App = () => (
       <BrowserRouter basename="/HellyEMatte">
         <Routes>
           <Route path="/" element={<Index />} />
-          <Route path="/story" element={<Story />} />
+          <Route path="/logistics" element={<Story />} />
           <Route path="/details" element={<Details />} />
           <Route path="/gallery" element={<Gallery />} />
-          <Route path="/Registry" element={<Registry />} />
+          <Route path="/gift" element={<Registry />} />
           <Route path="/rsvp" element={<RSVP />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
