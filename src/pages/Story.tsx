@@ -212,57 +212,56 @@ const Story = () => {
   </div>
 </div>
 
-      {/* Travel Information */}
-      <div className="py-16 bg-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-serif text-black mb-4">
-              Shuttle Bus
-            </h2>
-          </div>
+     {/* Travel Information */}
+<div className="py-16 bg-white">
+  <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div className="text-center mb-12">
+      <h2 className="text-3xl md:text-4xl font-serif text-black mb-4">
+        Shuttle Bus
+      </h2>
+    </div>
 
-          <div className="max-w-4xl mx-auto bg-white rounded-xl shadow-lg p-8 border border-pale-yellow">
-            <div className="space-y-8">
-              <div>
-                <p className="text-black">
-                  A shuttle service will take you to and from the venue.
-                  We encourage guests to use it, as the road to the venue is unpaved, with no artificial lights, and driving at night can be difficult.
-                  It also allows everyone to enjoy the celebration without worrying about drinking and driving.
-                </p>
-              </div>
+    <div className="max-w-4xl mx-auto bg-white rounded-xl shadow-lg p-8 border border-pale-yellow">
+      <div className="space-y-8">
+        <div>
+          <p className="text-black">
+            A shuttle service will take you to and from the venue.
+            We encourage guests to use it, as the road to the venue is unpaved, with no artificial lights, and driving at night can be difficult.
+            It also allows everyone to enjoy the celebration without worrying about drinking and driving.
+          </p>
+        </div>
 
-              <div>
-                <h3 className="text-xl font-semibold text-black mb-3">
-                  Arrival
-                </h3>
-                <p className="text-black">
-                  Shuttle departures from Valentano and Agriturismo Poggio il Tufo.
-                  The shuttle will bring guests to the venue.
-                </p>
-              </div>
+        <div>
+          <h3 className="text-xl font-semibold text-black mb-3">
+            Arrival
+          </h3>
+          <p className="text-black">
+            Shuttle departures from Valentano and Agriturismo Poggio il Tufo.
+            The shuttle will bring guests to the venue.
+          </p>
+        </div>
 
-              <div>
-                <h3 className="text-xl font-semibold text-black mb-3">
-                  During the Event
-                </h3>
-                <p className="text-black">
-                  The shuttle remains available on standby for guests who need it.
-                </p>
-              </div>
+        <div>
+          <h3 className="text-xl font-semibold text-black mb-3">
+            During the Event
+          </h3>
+          <p className="text-black">
+            The shuttle remains available on standby for guests who need it.
+          </p>
+        </div>
 
-              <div>
-                <h3 className="text-xl font-semibold text-black mb-3">
-                  Evening / Return
-                </h3>
-                <p className="text-black">
-                  Shuttle service back to the accommodations will run throughout the evening, so you can return whenever you prefer.
-                </p>
-              </div>
-            </div>
-          </div>
+        <div>
+          <h3 className="text-xl font-semibold text-black mb-3">
+            Evening / Return
+          </h3>
+          <p className="text-black">
+            Shuttle service back to the accommodations will run throughout the evening, so you can return whenever you prefer.
+          </p>
         </div>
       </div>
     </div>
+  </div>
+</div>
   );
 };
 
