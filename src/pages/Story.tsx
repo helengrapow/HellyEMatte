@@ -1,4 +1,3 @@
-
 import React from 'react';
 import Navbar from '../components/Navbar';
 import { MapPin, Car, Hotel } from 'lucide-react';
@@ -33,7 +32,7 @@ const Story = () => {
             <div className="md:flex">
               <div className="md:w-1/2">
                 <img
-                  src="public/images/Venue.PNG"
+                  src="public/images/Venue.png"
                   alt="Venue"
                   className="w-full h-full object-cover"
                 />
@@ -104,7 +103,7 @@ const Story = () => {
             <div className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow border border-pale-yellow">
               <div className="h-48 overflow-hidden">
                 <img
-                  src="public/images/Valentano.PNG"
+                  src="public/images/Valentano.png"
                   alt="Town of Valentano"
                   className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
                 />
@@ -142,7 +141,7 @@ const Story = () => {
             <div className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow border border-pale-yellow">
               <div className="h-48 overflow-hidden">
                 <img
-                  src="public/images/AgriturismoPoggioilTufo.JPG"
+                  src="public/images/AgriturismoPoggioilTufo.jpg"
                   alt="Agriturismo Poggio Le Volpi"
                   className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
                 />
@@ -178,7 +177,7 @@ const Story = () => {
             <div className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow border border-pale-yellow">
               <div className="h-48 overflow-hidden">
                 <img
-                  src="public/images/tent.JPEG"
+                  src="public/images/tent.jpeg"
                   alt="Camping Option"
                   className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
                 />
