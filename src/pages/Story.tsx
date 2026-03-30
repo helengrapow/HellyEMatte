@@ -103,11 +103,10 @@ const Story = () => {
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow border border-pale-yellow">
-              <div className="h-48 overflow-hidden">
-                <img
-                  src="public/images/Valentano.PNG"
-                  alt="Town of Valentano"
-                  className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
+                <div className="h-48 overflow-hidden">
+                  style={{
+                    backgroundImage: `url(${import.meta.env.BASE_URL}images/Valentano.png)`,
+                  }}
                 />
               </div>
               <div className="p-6 flex flex-col h-[280px]">
