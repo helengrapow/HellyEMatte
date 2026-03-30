@@ -151,12 +151,12 @@ const Story = () => {
 
             <div className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow border border-pale-yellow">
               <div className="h-48 overflow-hidden">
-                <img
-                  src="public/images/AgriturismoPoggioilTufo.JPG"
-                  alt="Agriturismo Poggio Le Volpi"
-                  className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
-                />
-              </div>
+                  <img
+                    src={`${import.meta.env.BASE_URL}images/AgriturismoPoggioilTufo.jpg`}
+                    alt="Agriturismo Poggio Le Volpi"
+                    className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
+                  />
+                </div>
               <div className="p-6 flex flex-col h-[280px]">
                 <div className="flex items-center mb-4">
                   <Hotel className="w-5 h-5 text-[#7BA7BC] mr-2" />
