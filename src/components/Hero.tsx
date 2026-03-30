@@ -22,6 +22,7 @@ const Hero = () => {
             Helli <span className="text-pale-blue">&</span> Matte
             <br />
             <br />
+            <br />
           </h1>
           <p className="text-xl md:text-2xl font-light mb-15 opacity-90">
             {/* CUSTOMIZE: Replace with your wedding tagline */}
