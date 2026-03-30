@@ -60,7 +60,7 @@ const Registry = () => {
 </div>
 <div className="mt-16 flex justify-center">
     <img
-      src={`${import.meta.env.BASE_URL}images/public/images/honeymoon_final.JPEG`}
+      src={`${import.meta.env.BASE_URL}public/images/honeymoon_final.JPEG`}
       alt="Our honeymoon (destination to be announced)"
       className="rounded-xl shadow-lg w-full max-w-3xl mx-auto"
     />
