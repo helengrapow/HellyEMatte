@@ -33,7 +33,7 @@ const Story = () => {
             <div className="md:flex">
               <div className="md:w-1/2">
                 <img
-                  src="public/images/Venue.PNG"
+                  src={`${import.meta.env.BASE_URL}images/Venue.PNG`}
                   alt="Venue"
                   className="w-full h-full object-cover"
                 />
