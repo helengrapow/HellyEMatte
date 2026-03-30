@@ -105,7 +105,7 @@ const Story = () => {
             <div className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow border border-pale-yellow">
               <div className="h-48 overflow-hidden">
                 <img
-                  src={`${import.meta.env.BASE_URL}images/Valentano.png`}
+                  src={`${import.meta.env.BASE_URL}images/Valentano.PNG`}
                   alt="Town of Valentano"
                   className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
                 />
