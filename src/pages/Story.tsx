@@ -101,45 +101,53 @@ const Story = () => {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow border border-pale-yellow">
-              <div className="h-48 overflow-hidden">
-                <img
-                  src={`${import.meta.env.BASE_URL}images/Valentano.PNG`}
-                  alt="Town of Valentano"
-                  className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
-                />
-              </div>
-              </div>
-              <div className="p-6 flex flex-col h-[280px]">
-                <div className="flex items-center mb-4">
-                  <Hotel className="w-5 h-5 text-[#7BA7BC] mr-2" />
-                  <h3 className="text-xl font-semibold text-black">
-                    Valentano
-                  </h3>
-                </div>
-                <div className="flex-grow flex items-center justify-center">
-                  <p className="text-black text-center text-sm">
-                    Located about 12 minutes from the venue, Valentano is the closest town. 
-                    You can find hotels and rooms on Booking and Airbnb. 
-                    There are also a few apartments from the venue owner that are not listed online — feel free to contact us if you’re interested.
-                  </p>
-                </div>
-                <div className="flex justify-between items-center mt-4">
-                  <span className="text-black font-medium text-lg">
-                    60/night
-                  </span>
-                  <a
-                    href="https://maps.app.goo.gl/pBwAcRF2DtZCAP2BA"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-sm bg-pale-yellow hover:bg-white border border-pale-yellow text-black px-4 py-2 rounded-full transition-colors"
-                  >
-                    View on Map
-                  </a>
-                </div>
-              </div>
-            </div>
+<div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+
+  <div className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow border border-pale-yellow">
+    
+    <div className="h-48 overflow-hidden">
+      <img
+        src={`${import.meta.env.BASE_URL}images/Valentano.png`}
+        alt="Town of Valentano"
+        className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
+      />
+    </div>
+
+    <div className="p-6 flex flex-col h-[280px]">
+      <div className="flex items-center mb-4">
+        <Hotel className="w-5 h-5 text-[#7BA7BC] mr-2" />
+        <h3 className="text-xl font-semibold text-black">
+          Valentano
+        </h3>
+      </div>
+
+      <div className="flex-grow flex items-center justify-center">
+        <p className="text-black text-center text-sm">
+          Located about 12 minutes from the venue, Valentano is the closest town. 
+          You can find hotels and rooms on Booking and Airbnb. 
+          There are also a few apartments from the venue owner that are not listed online — feel free to contact us if you’re interested.
+        </p>
+      </div>
+
+      <div className="flex justify-between items-center mt-4">
+        <span className="text-black font-medium text-lg">
+          60/night
+        </span>
+
+        <a
+          href="https://maps.app.goo.gl/pBwAcRF2DtZCAP2BA"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-sm bg-pale-yellow hover:bg-white border border-pale-yellow text-black px-4 py-2 rounded-full transition-colors"
+        >
+          View on Map
+        </a>
+      </div>
+    </div>
+
+  </div>
+
+</div>
 
             <div className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow border border-pale-yellow">
               <div className="h-48 overflow-hidden">
