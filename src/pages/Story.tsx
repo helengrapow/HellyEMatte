@@ -140,7 +140,7 @@ const Story = () => {
                 </p>
                 <div className="flex justify-between">
                   <span>60/night</span>
-                  <a href="https://www.google.com/maps/place/Agriturismo+Poggio+al+Tufo/@42.6085362,11.6941525,17z/data=!3m1!4b1!4m9!3m8!1s0x13291f84a2c35001:0x3df951ecb7acb113!5m2!4m1!1i2!8m2!3d42.6085323!4d11.6967274!16s%2Fg%2F12mj_ld49?entry=ttu&g_ep=EgoyMDI2MDQwMS4wIKXMDSoASAFQAw%3D%3D" target="_blank">
+                  <a href="https://maps.app.goo.gl/XdveQT6zhegZ4Yu58?g_st=iw" target="_blank">
                     Map
                   </a>
                 </div>
