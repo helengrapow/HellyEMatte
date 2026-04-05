@@ -4,6 +4,7 @@ import Navbar from '../components/Navbar';
 import Hero from '../components/Hero';
 import CountdownTimer from '../components/CountdownTimer';
 import QuickDetails from '../components/QuickDetails';
+import { Link } from "react-router-dom";
 
 const Index = () => {
   return (
