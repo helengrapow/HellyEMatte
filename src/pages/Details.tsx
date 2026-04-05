@@ -234,7 +234,7 @@ const Details = () => {
                 You can visit our gift page if you'd like to contribute to our honeymoon!
               </p>
               <Link
-                to="/registry" 
+                to="/gift" 
                 className="text-black hover:text-pale-blue font-medium transition-colors"
               >
                 Gift Page
