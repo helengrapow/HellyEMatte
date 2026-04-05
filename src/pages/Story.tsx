@@ -136,11 +136,34 @@ const Story = () => {
                   Agriturismo Poggio il Tufo
                 </h3>
                 <p className="text-sm text-black mb-4">
-                  About 20 minutes from the venue, with vineyards, pool, and breakfast included.
+                  About 20 minutes from the venue. It has rooms with shared pool and breakfast included.
                 </p>
                 <div className="flex justify-between">
                   <span>60/night</span>
                   <a href="https://maps.app.goo.gl/XdveQT6zhegZ4Yu58?g_st=iw" target="_blank">
+                    Map
+                  </a>
+                </div>
+              </div>
+            </div>
+            {/* Poggio Delle Conche */}
+            <div className="bg-white rounded-xl shadow-lg overflow-hidden border border-pale-yellow">
+              <div
+                className="h-48 bg-cover bg-center"
+                style={{
+                  backgroundImage: `url(${import.meta.env.BASE_URL}images/AgriturismoPoggiodelleConche.jpg)`,
+                }}
+              />
+              <div className="p-6">
+                <h3 className="text-xl font-semibold text-black mb-2">
+                  Agriturismo Poggio Delle Conche
+                </h3>
+                <p className="text-sm text-black mb-4">
+                  About 20 minutes from the venue, apartments with common pool.
+                </p>
+                <div className="flex justify-between">
+                  <span>60/night</span>
+                  <a href="https://maps.app.goo.gl/AKNQvdiYb4WeXMbdA?g_st=iw" target="_blank">
                     Map
                   </a>
                 </div>
