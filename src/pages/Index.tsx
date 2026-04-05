@@ -28,9 +28,9 @@ const Index = () => {
             <Link
               to="/rsvp"
               className="bg-pale-yellow border border-black text-black hover:bg-white px-8 py-3 rounded-full font-medium transition-colors duration-200 hover:scale-105 transform"
-            </Link>
+            >
               RSVP
-            </a>
+            </Link>
           </div>
         </div>
       </div>
