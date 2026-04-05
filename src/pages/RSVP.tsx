@@ -34,7 +34,7 @@ const RSVP = () => {
             </p>
 
             <a
-              href="https://febugent.eu.qualtrics.com/jfe/form/SV_2tsAEHc7uK22acS"
+              href="https://febugent.eu.qualtrics.com/jfe/form/SV_6hgd6dGBYVjIYei"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-block bg-pale-yellow hover:bg-white border border-pale-yellow text-black px-8 py-3 rounded-full text-lg font-medium transition-colors"

@@ -226,12 +226,12 @@ const Story = () => {
           <h2 className="text-3xl font-serif text-center mb-6">Shuttle Bus</h2>
 
           <p className="mb-6">
-            A shuttle service can take you to and from the venue. The road is unpaved and dark, so we recommend using it.
+            A shuttle service can take you to and from the venue. The road is unpaved and has no artificial lighting, so we recommend using it.
           </p>
 
           <h3 className="font-semibold">Arrival</h3>
           <p className="mb-4">
-            Departures from Valentano and Poggio il Tufo.
+            Departures from Valentano and the locations in the list.
           </p>
 
           <h3 className="font-semibold">During</h3>
