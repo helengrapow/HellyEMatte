@@ -251,7 +251,7 @@ const Details = () => {
                 Have a song you want to hear at the reception? Let us know in your RSVP and we can potentially make it happen!
               </p>
               <Link
-               to="/RSVP" 
+               to="/rsvp" 
                 className="text-black hover:text-pale-blue font-medium transition-colors"
               >
                 RSVP Page
