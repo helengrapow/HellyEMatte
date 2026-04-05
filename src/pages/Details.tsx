@@ -1,5 +1,6 @@
 import React from 'react';
 import Navbar from '../components/Navbar';
+import { Link } from 'react-router-dom';
 import { MapPin, Clock, Car, Hotel, UtensilsCrossed, Gift, Music, Calendar } from 'lucide-react';
 
 const Details = () => {
@@ -214,12 +215,12 @@ const Details = () => {
               
                 RSVP questionnaire.
               </p>
-              <a 
-                href="/RSVP" 
+              <Link 
+                to="/RSVP" 
                 className="text-black hover:text-pale-blue font-medium transition-colors"
               >
                 RSVP Page
-              </a>
+              </Link>
             </div>
             
             {/* Gift */}
@@ -232,12 +233,12 @@ const Details = () => {
                 {/* CUSTOMIZE: Add information about your registry */}
                 You can visit our gift page if you'd like to contribute to our honeymoon!
               </p>
-              <a 
-                href="/registry" 
+              <Link
+                to="/registry" 
                 className="text-black hover:text-pale-blue font-medium transition-colors"
               >
                 Gift Page
-              </a>
+              </Link>
             </div>
             
             {/* Music */}
@@ -250,12 +251,12 @@ const Details = () => {
                 {/* CUSTOMIZE: Add information about music requests */}
                 Have a song you want to hear at the reception? Let us know in your RSVP and we can potentially make it happen!
               </p>
-              <a 
-                href="/RSVP" 
+              <Link 
+                to="/rsvp" 
                 className="text-black hover:text-pale-blue font-medium transition-colors"
               >
                 RSVP Page
-              </a>
+              </Link>
             </div>
           </div>
         </div>
