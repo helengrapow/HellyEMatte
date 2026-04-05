@@ -1,6 +1,7 @@
 
 import React from 'react';
 import { Calendar, MapPin } from 'lucide-react';
+import { Link } from "react-router-dom";
 
 const Hero = () => {
   return (
@@ -46,20 +47,20 @@ const Hero = () => {
               <span>AgriResort Fa' Viaco, Localita' Mezzano </span>
             </div>
           </div>
-
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a
-              href={`${import.meta.env.BASE_URL}rsvp`}
+            <Link
+              to="/rsvp"
               className="bg-pale-yellow hover:bg-white text-black px-8 py-3 rounded-full font-medium transition-colors duration-200 hover:scale-105 transform"
             >
               RSVP Now
-            </a>
-            <a
-              href={`${import.meta.env.BASE_URL}gift`}
+            </Link>
+          
+            <Link
+              to="/gift"
               className="bg-white/20 backdrop-blur-sm hover:bg-white/30 text-white border border-white/30 px-8 py-3 rounded-full font-medium transition-all duration-200 hover:scale-105 transform"
             >
               View Gift
-            </a>
+            </Link>
           </div>
         </div>
       </div>
