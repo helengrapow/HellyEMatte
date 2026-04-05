@@ -216,7 +216,7 @@ const Details = () => {
                 RSVP questionnaire.
               </p>
               <Link 
-                to="/RSVP" 
+                to="/rsvp" 
                 className="text-black hover:text-pale-blue font-medium transition-colors"
               >
                 RSVP Page
