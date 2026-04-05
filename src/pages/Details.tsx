@@ -214,12 +214,12 @@ const Details = () => {
               
                 RSVP questionnaire.
               </p>
-              <Link
-               to="/rsvp"
+              <a 
+                href="/RSVP" 
                 className="text-black hover:text-pale-blue font-medium transition-colors"
               >
                 RSVP Page
-              </Link>
+              </a>
             </div>
             
             {/* Gift */}
@@ -232,12 +232,12 @@ const Details = () => {
                 {/* CUSTOMIZE: Add information about your registry */}
                 You can visit our gift page if you'd like to contribute to our honeymoon!
               </p>
-              <Link
-               to="/gift"
+              <a 
+                href="/registry" 
                 className="text-black hover:text-pale-blue font-medium transition-colors"
               >
                 Gift Page
-              </Link>
+              </a>
             </div>
             
             {/* Music */}
@@ -250,12 +250,12 @@ const Details = () => {
                 {/* CUSTOMIZE: Add information about music requests */}
                 Have a song you want to hear at the reception? Let us know in your RSVP and we can potentially make it happen!
               </p>
-              <Link
-               to="/rsvp" 
+              <a 
+                href="/RSVP" 
                 className="text-black hover:text-pale-blue font-medium transition-colors"
               >
                 RSVP Page
-              </Link>
+              </a>
             </div>
           </div>
         </div>
