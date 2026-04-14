@@ -50,25 +50,25 @@ const Hero = () => {
           <div className="flex flex-col sm:flex-row gap-2.5 sm:gap-4 justify-center">
           <Link
             to="/logistics"
-            className="bg-white/20 backdrop-blur-sm hover:bg-white/30 text-white border border-white/30 px-5 py-2 sm:px-8 sm:py-3 rounded-full text-sm sm:text-base font-medium transition-all duration-200 hover:scale-105 transform"
+            className="bg-white/20 backdrop-blur-sm hover:bg-white/30 text-white border border-white/30 px-5 py-2 sm:px-6 sm:py-2.5 rounded-full text-sm sm:text-base font-medium transition-all duration-200 hover:scale-105 transform"
           >
             Logistics
           </Link>
           <Link
             to="/rsvp"
-            className="bg-pale-yellow hover:bg-white text-black px-5 py-2 sm:px-8 sm:py-3 rounded-full text-sm sm:text-base font-medium transition-colors duration-200 hover:scale-105 transform"
+            className="bg-pale-yellow hover:bg-white text-black px-5 py-2 sm:px-6 sm:py-2.5 rounded-full text-sm sm:text-base font-medium transition-colors duration-200 hover:scale-105 transform"
           >
             RSVP Now
           </Link>
           <Link
             to="/gift"
-            className="bg-white/20 backdrop-blur-sm hover:bg-white/30 text-white border border-white/30 px-5 py-2 sm:px-8 sm:py-3 rounded-full text-sm sm:text-base font-medium transition-all duration-200 hover:scale-105 transform"
+            className="bg-white/20 backdrop-blur-sm hover:bg-white/30 text-white border border-white/30 px-5 py-2 sm:px-6 sm:py-2.5 rounded-full text-sm sm:text-base font-medium transition-all duration-200 hover:scale-105 transform"
           >
             Gift
           </Link>
           <Link
             to="/details"
-            className="bg-white/20 backdrop-blur-sm hover:bg-white/30 text-white border border-white/30 px-5 py-2 sm:px-8 sm:py-3 rounded-full text-sm sm:text-base font-medium transition-all duration-200 hover:scale-105 transform"
+            className="bg-white/20 backdrop-blur-sm hover:bg-white/30 text-white border border-white/30 px-5 py-2 sm:px-6 sm:py-2.5 rounded-full text-sm sm:text-base font-medium transition-all duration-200 hover:scale-105 transform"
           >
             Program
           </Link>
@@ -77,7 +77,7 @@ const Hero = () => {
       </div>
 
       {/* Scroll Indicator */}
-      <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 text-white animate-bounce">
+      <div className="absolute bottom-2 left-1/2 transform -translate-x-1/2 text-white animate-bounce">
         <div className="w-5 h-8 border-0.5 border-white/50 rounded-full flex justify-center">
           <div className="w-1 h-2 bg-white/50 rounded-full mt-1.5 animate-pulse" />
         </div>
