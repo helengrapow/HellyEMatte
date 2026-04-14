@@ -24,9 +24,6 @@ const Hero = () => {
           <br />
             Helli <span className="text-pale-blue">&</span> Matte
             <br />
-            <br />
-            <br />
-            <br />
           </h1>
           <p className="text-xl md:text-2xl font-light mb-15 opacity-90">
             {/* CUSTOMIZE: Replace with your wedding tagline */}
@@ -34,42 +31,44 @@ const Hero = () => {
             we invite you to celebrate with us on our big day!
             <br />
             <br />
+            <br />
+            <br />
           </p>
           
           <div className="flex flex-col md:flex-row items-center justify-center gap-8 mb-12">
-            <div className="flex items-center gap-3 text-lg">
+            <div className="flex items-center gap-2.5 text-lg">
               <Calendar className="w-6 h-6 text-pale-blue" />
               {/* CUSTOMIZE: Replace with your wedding date */}
               <span>12 September, 2026</span>
             </div>
-            <div className="flex items-center gap-3 text-lg">
+            <div className="flex items-center gap-2.5 text-lg">
               <MapPin className="w-6 h-6 text-pale-blue" />
               {/* CUSTOMIZE: Replace with your venue name and location */}
               <span>AgriResort Fa' Viaco, Localita' Mezzano </span>
             </div>
           </div>
-          <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center">
+          <div className="flex flex-col sm:flex-row gap-2.5 sm:gap-4 justify-center">
           <Link
             to="/logistics"
-            className="bg-white/20 backdrop-blur-sm hover:bg-white/30 text-white border border-white/30 px-5 py-2.5 sm:px-8 sm:py-3 rounded-full text-sm sm:text-base font-medium transition-all duration-200 hover:scale-105 transform"
+            className="bg-white/20 backdrop-blur-sm hover:bg-white/30 text-white border border-white/30 px-5 py-2 sm:px-8 sm:py-3 rounded-full text-sm sm:text-base font-medium transition-all duration-200 hover:scale-105 transform"
           >
             Logistics
           </Link>
           <Link
             to="/rsvp"
-            className="bg-pale-yellow hover:bg-white text-black px-5 py-2.5 sm:px-8 sm:py-3 rounded-full text-sm sm:text-base font-medium transition-colors duration-200 hover:scale-105 transform"
+            className="bg-pale-yellow hover:bg-white text-black px-5 py-2 sm:px-8 sm:py-3 rounded-full text-sm sm:text-base font-medium transition-colors duration-200 hover:scale-105 transform"
           >
             RSVP Now
           </Link>
           <Link
             to="/gift"
-            className="bg-white/20 backdrop-blur-sm hover:bg-white/30 text-white border border-white/30 px-5 py-2.5 sm:px-8 sm:py-3 rounded-full text-sm sm:text-base font-medium transition-all duration-200 hover:scale-105 transform"
+            className="bg-white/20 backdrop-blur-sm hover:bg-white/30 text-white border border-white/30 px-5 py-2 sm:px-8 sm:py-3 rounded-full text-sm sm:text-base font-medium transition-all duration-200 hover:scale-105 transform"
           >
             Gift
           </Link>
           <Link
             to="/details"
-            className="bg-white/20 backdrop-blur-sm hover:bg-white/30 text-white border border-white/30 px-5 py-2.5 sm:px-8 sm:py-3 rounded-full text-sm sm:text-base font-medium transition-all duration-200 hover:scale-105 transform"
+            className="bg-white/20 backdrop-blur-sm hover:bg-white/30 text-white border border-white/30 px-5 py-2 sm:px-8 sm:py-3 rounded-full text-sm sm:text-base font-medium transition-all duration-200 hover:scale-105 transform"
           >
             Program
           </Link>
