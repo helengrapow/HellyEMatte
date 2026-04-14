@@ -48,6 +48,12 @@ const Hero = () => {
             </div>
           </div>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
+           <Link
+              to="/logistics"
+              className="bg-white/20 backdrop-blur-sm hover:bg-white/30 text-white border border-white/30 px-8 py-3 rounded-full font-medium transition-all duration-200 hover:scale-105 transform"
+            >
+              Logistics
+            </Link>
             <Link
               to="/rsvp"
               className="bg-pale-yellow hover:bg-white text-black px-8 py-3 rounded-full font-medium transition-colors duration-200 hover:scale-105 transform"
@@ -58,9 +64,9 @@ const Hero = () => {
               to="/gift"
               className="bg-white/20 backdrop-blur-sm hover:bg-white/30 text-white border border-white/30 px-8 py-3 rounded-full font-medium transition-all duration-200 hover:scale-105 transform"
             >
-              View Gift
+              Gift
             </Link>
-                        <Link
+            <Link
               to="/details"
               className="bg-pale-yellow hover:bg-white text-black px-8 py-3 rounded-full font-medium transition-colors duration-200 hover:scale-105 transform"
             >
