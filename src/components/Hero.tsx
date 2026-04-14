@@ -21,15 +21,16 @@ const Hero = () => {
         <div className="animate-fade-in">
           <h1 className="font-serif text-5xl md:text-7xl lg:text-8xl font-light mb-10 tracking-wide">
           <br />
+          <br />
             Helli <span className="text-pale-blue">&</span> Matte
+            <br />
+            <br />
             <br />
           </h1>
           <p className="text-xl md:text-2xl font-light mb-15 opacity-90">
             {/* CUSTOMIZE: Replace with your wedding tagline */}
             To our friends and family, 
             we invite you to celebrate with us on our big day!
-            <br />
-            <br />
             <br />
             <br />
           </p>
@@ -76,9 +77,9 @@ const Hero = () => {
       </div>
 
       {/* Scroll Indicator */}
-      <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 text-white animate-bounce">
-        <div className="w-6 h-10 border-2 border-white/50 rounded-full flex justify-center">
-          <div className="w-1 h-3 bg-white/50 rounded-full mt-2 animate-pulse" />
+      <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 text-white animate-bounce">
+        <div className="w-5 h-8 border-0.5 border-white/50 rounded-full flex justify-center">
+          <div className="w-1 h-2 bg-white/50 rounded-full mt-1.5 animate-pulse" />
         </div>
       </div>
     </div>
