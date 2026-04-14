@@ -77,7 +77,7 @@ const Hero = () => {
       </div>
 
       {/* Scroll Indicator */}
-      <div className="absolute bottom-3.5 left-1/2 transform -translate-x-1/2 text-white animate-bounce">
+      <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 text-white animate-bounce">
         <div className="w-5 h-8 border-0.5 border-white/50 rounded-full flex justify-center">
           <div className="w-1 h-2 bg-white/50 rounded-full mt-1.5 animate-pulse" />
         </div>
