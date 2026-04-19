@@ -113,6 +113,7 @@ const Story = () => {
                   Located about 12 minutes from the venue, Valentano is the closest town.
                   You can find hotels and rooms on Booking and Airbnb.
                   <br />
+                  <br />
                   There are also apartments from the venue owner which not listed online yet, reservations will be possible as of June.
                 </p>
                 <div className="flex justify-between">
