@@ -118,7 +118,7 @@ const Story = () => {
                 <div className="flex justify-between">
                   <span>50/night</span>
                   <a href="https://maps.app.goo.gl/pBwAcRF2DtZCAP2BA" target="_blank">
-                    Map
+                    View on Maps
                   </a>
                 </div>
               </div>
@@ -138,7 +138,7 @@ const Story = () => {
                 </h3>
                 <p className="text-sm text-black mb-4">
                   About 20 minutes from the venue. It has rooms with shared pool and breakfast included.
-                  The locations are prebooked for our wedding guest so if you wish to reserve call them directly at +393473577182
+                  The locations are prebooked for our wedding guests so if you wish to reserve call them directly at +393473577182
                 </p>
                 <div className="flex justify-between">
                   <span>65/night</span>
