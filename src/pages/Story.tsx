@@ -112,10 +112,11 @@ const Story = () => {
                 <p className="text-sm text-black mb-4">
                   Located about 12 minutes from the venue, Valentano is the closest town.
                   You can find hotels and rooms on Booking and Airbnb.
-                  There are also apartments from the venue owner not listed online.
+                  <br />
+                  There are also apartments from the venue owner which not listed online yet, reservations will be possible as of June.
                 </p>
                 <div className="flex justify-between">
-                  <span>60/night</span>
+                  <span>50/night</span>
                   <a href="https://maps.app.goo.gl/pBwAcRF2DtZCAP2BA" target="_blank">
                     Map
                   </a>
@@ -137,11 +138,12 @@ const Story = () => {
                 </h3>
                 <p className="text-sm text-black mb-4">
                   About 20 minutes from the venue. It has rooms with shared pool and breakfast included.
+                  The locations are prebooked for our wedding guest so if you wish to reserve call them directly at +393473577182
                 </p>
                 <div className="flex justify-between">
                   <span>65/night</span>
                   <a href="https://maps.app.goo.gl/XdveQT6zhegZ4Yu58?g_st=iw" target="_blank">
-                    Map
+                    View on Maps
                   </a>
                 </div>
               </div>
@@ -161,11 +163,12 @@ const Story = () => {
                 </h3>
                 <p className="text-sm text-black mb-4">
                   About 20 minutes from the venue, apartments with common pool.
+                  The locations are prebooked for our wedding guest so if you wish to reserve call them directly at +393473577182
                 </p>
                 <div className="flex justify-between">
                   <span>60/night</span>
                   <a href="https://maps.app.goo.gl/AKNQvdiYb4WeXMbdA?g_st=iw" target="_blank">
-                    Map
+                    View on Maps
                   </a>
                 </div>
               </div>
@@ -189,7 +192,7 @@ const Story = () => {
                 <div className="flex justify-between">
                   <span>60/night</span>
                   <a href="https://maps.app.goo.gl/xiJWktpwEadmDJGe8?g_st=iw" target="_blank">
-                    Map
+                    View on Maps
                   </a>
                 </div>
               </div>
@@ -226,7 +229,7 @@ const Story = () => {
           <h2 className="text-3xl font-serif text-center mb-6">Shuttle Bus</h2>
 
           <p className="mb-6">
-            A shuttle service can take you to and from the venue. The road is unpaved and has no artificial lighting, so we recommend using it.
+            A shuttle service can take you to and from the venue. The road is unpaved and has no artificial lighting, so we recommend using it to avoid drinking and driving.
           </p>
 
           <h3 className="font-semibold">Arrival</h3>
