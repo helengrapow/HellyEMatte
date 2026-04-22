@@ -45,15 +45,15 @@ const Registry = () => {
             className="rounded-xl shadow-lg w-full object-cover"
           />
         </div>
-      </div>
+
 
       {/* Thank You Section */}
-      <div className="py-16 bg-yellow-100 text-center">
+
         <h2 className="text-3xl md:text-4xl font-serif text-black mb-4">
           Thank You
         </h2>
         <p className="text-xl text-black leading-relaxed px-4">
-          We can’t wait to celebrate our special day with you!
+          We can’t wait to celebrate our special day with you :)
         </p>
       </div>
     </div>
