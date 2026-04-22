@@ -45,7 +45,7 @@ const Registry = () => {
             className="rounded-xl shadow-lg w-full object-cover"
           />
         </div>
-
+      </div> 
 
       {/* Thank You Section */}
       <div className="bg-white py-16 text-center">
