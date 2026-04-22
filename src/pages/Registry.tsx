@@ -30,8 +30,8 @@ const Registry = () => {
               Honeymoon Fund
             </h2>
             <p className="text-lg text-black">Matteo Biasciutti & Helen Grapow</p>
-            <p className="text-lg text-black font-mono mt-2">IBAN: BE59 6500 4806 3426</p>
-            <p className="text-lg text-black font-mono">BIC/SWIFT: REVOBEB2</p>
+            <p className="text-lg text-black ">IBAN: BE59 6500 4806 3426</p>
+            <p className="text-lg text-black ">BIC/SWIFT: REVOBEB2</p>
           </div>
         </div>
       </div>
