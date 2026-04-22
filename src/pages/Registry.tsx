@@ -35,10 +35,10 @@ const Registry = () => {
           </div>
         </div>
       </div>
-
+        </div>
       {/* Image Section */}
-      <div className="bg-white py-16">
-        <div className="max-w-3xl mx-auto px-4">
+      <div className="bg-white py-16 ">
+        <div className="max-w-3xl mx-auto px-4 text-center">
           <img 
             src={`${import.meta.env.BASE_URL}images/honeymoonfinal.JPEG`} 
             alt="Honeymoon destination" 
@@ -48,7 +48,6 @@ const Registry = () => {
 
 
       {/* Thank You Section */}
-
         <h2 className="text-3xl md:text-4xl font-serif text-black mb-4">
           Thank You
         </h2>
@@ -56,7 +55,6 @@ const Registry = () => {
           We can’t wait to celebrate our special day with you :)
         </p>
       </div>
-    </div>
   );
 };
 
