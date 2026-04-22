@@ -47,18 +47,19 @@ const Registry = () => {
          Bic/Swift REVOBEB2
       </p>
     </div>
-<div className="mt-16 flex justify-center">
-    <img
-      src={`${import.meta.env.BASE_URL}images/honeymoonfinal.JPEG`}
-      alt="Our honeymoon (destination to be announced)"
-      className="rounded-xl shadow-lg w-full max-w-3xl mx-auto"
-    />
-</div>
-
   </div>
 </div>
-
 <div className="mt-16 flex justify-center">
+    <div className="mt-16 flex justify-center">
+        <img
+          src={`${import.meta.env.BASE_URL}images/honeymoonfinal.JPEG`}
+          alt="Our honeymoon (destination to be announced)"
+          className="rounded-xl shadow-lg w-full max-w-3xl mx-auto"
+        />
+    </div>
+</div>
+
+<div className="py-16 bg-yellow-100">
     <p className="mt-6 text-xl font-serif text-black">
       <h2 className="text-3xl md:text-4xl font-serif text-black mt-12 mb-4">
       Thank you
