@@ -46,7 +46,7 @@ const Hero = () => {
             <div className="flex items-center gap-2.5 text-lg">
               <MapPin className="w-6 h-6 text-pale-blue" />
               {/* CUSTOMIZE: Replace with your venue name and location */}
-              <span>AgriResort Fa' Viaco, Localita' Mezzano </span>
+              <span>AgriResort Fra' Viaco, Localita' Mezzano </span>
             </div>
           </div>
           <div className="flex flex-col sm:flex-row gap-2.5 sm:gap-4 justify-center">

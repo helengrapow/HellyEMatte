@@ -47,17 +47,6 @@ const Registry = () => {
          Bic/Swift REVOBEB2
       </p>
     </div>
-
-    <h2 className="text-3xl md:text-4xl font-serif text-black mt-12 mb-4">
-      Thank you
-    </h2>
-
-    <p className="text-black leading-relaxed">
-      We can’t wait to celebrate our special day with you!
-    </p>
-
-  </div>
-</div>
 <div className="mt-16 flex justify-center">
     <img
       src={`${import.meta.env.BASE_URL}images/honeymoonfinal.JPEG`}
@@ -65,9 +54,19 @@ const Registry = () => {
       className="rounded-xl shadow-lg w-full max-w-3xl mx-auto"
     />
 </div>
+
+  </div>
+</div>
+
 <div className="mt-16 flex justify-center">
     <p className="mt-6 text-xl font-serif text-black">
-      
+      <h2 className="text-3xl md:text-4xl font-serif text-black mt-12 mb-4">
+      Thank you
+    </h2>
+
+    <p className="text-black leading-relaxed">
+      We can’t wait to celebrate our special day with you!
+    </p>
     </p>
 </div>
 <div className="mt-16 flex justify-center">
