@@ -49,6 +49,8 @@ const Registry = () => {
     </div>
   </div>
 </div>
+</div>
+<div className="min-h-screen bg-white">
 <div className="mt-16 flex justify-center">
     <div className="mt-16 flex justify-center">
         <img
@@ -58,8 +60,9 @@ const Registry = () => {
         />
     </div>
 </div>
-
+</div>
 <div className="py-16 bg-yellow-100">
+ <div className="mt-16 flex justify-center">
     <p className="mt-6 text-xl font-serif text-black">
       <h2 className="text-3xl md:text-4xl font-serif text-black mt-12 mb-4">
       Thank you
@@ -69,6 +72,7 @@ const Registry = () => {
       We can’t wait to celebrate our special day with you!
     </p>
     </p>
+    </div>
 </div>
 <div className="mt-16 flex justify-center">
     <p className="mt-6 text-xl font-serif text-black">
