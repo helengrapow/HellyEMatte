@@ -26,60 +26,43 @@ const Registry = () => {
         </div>
       </div>
 
-      {/* Yellow section */}
-<div className="py-16 bg-yellow-100">
-  <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-
-    <div className="bg-white rounded-xl shadow-lg p-8 md:p-10 max-w-xl mx-auto">
-
-      <h2 className="text-2xl md:text-3xl font-serif text-black mb-4">
-        Honeymoon Fund
-      </h2>
-
-      <p className="text-lg text-black mb-2">
-        Matteo Biasciutti & Helen Grapow
-      </p>
-
-      <p className="text-lg text-black mb-2">
-        Iban BE59650048063426
-      </p>
-      <p className="text-lg text-black mb-2">
-         Bic/Swift REVOBEB2
-      </p>
+<div>
+  {/* Honeymoon Fund Card Section */}
+  <div className="py-16 bg-yellow-100">
+    <div className="max-w-4xl mx-auto px-4 text-center">
+      <div className="bg-white rounded-xl shadow-lg p-8 md:p-10 max-w-xl mx-auto">
+        <h2 className="text-2xl md:text-3xl font-serif text-black mb-4">
+          Honeymoon Fund
+        </h2>
+        <p className="text-lg text-black">Matteo Biasciutti & Helen Grapow</p>
+        <p className="text-lg text-black font-mono mt-2">IBAN: BE59 6500 4806 3426</p>
+        <p className="text-lg text-black font-mono">BIC/SWIFT: REVOBEB2</p>
+      </div>
     </div>
   </div>
-</div>
-</div>
-<div className="min-h-screen bg-white">
-<div className="mt-16 flex justify-center">
-    <div className="mt-16 flex justify-center">
-        <img
-          src={`${import.meta.env.BASE_URL}images/honeymoonfinal.JPEG`}
-          alt="Our honeymoon (destination to be announced)"
-          className="rounded-xl shadow-lg w-full max-w-3xl mx-auto"
-        />
-    </div>
-</div>
-</div>
-<div className="py-16 bg-yellow-100">
- <div className="mt-16 flex justify-center">
-    <p className="mt-6 text-xl font-serif text-black">
-      <h2 className="text-3xl md:text-4xl font-serif text-black mt-12 mb-4">
-      Thank you
-    </h2>
 
-    <p className="text-black leading-relaxed">
-      We can’t wait to celebrate our special day with you!
-    </p>
-    </p>
+  {/* Image Section */}
+  <div className="bg-white py-16">
+    <div className="max-w-3xl mx-auto px-4">
+      <img 
+        src={`${import.meta.env.BASE_URL}images/honeymoonfinal.JPEG`} 
+        alt="Honeymoon destination" 
+        className="rounded-xl shadow-lg w-full object-cover"
+      />
     </div>
-</div>
-<div className="mt-16 flex justify-center">
-    <p className="mt-6 text-xl font-serif text-black">
-      
+  </div>
+
+  {/* Thank You Section */}
+  <div className="py-16 bg-yellow-100 text-center">
+    <h2 className="text-3xl md:text-4xl font-serif text-black mb-4">
+      Thank You
+    </h2>
+    <p className="text-xl text-black leading-relaxed">
+      We can’t wait to celebrate our special day with you :)
     </p>
+  </div>
 </div>
-</div>
+
   );
 };
 
