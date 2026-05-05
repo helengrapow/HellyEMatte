@@ -235,12 +235,12 @@ const Story = () => {
 
           <h3 className="font-semibold">Arrival</h3>
           <p className="mb-4">
-            Departures from Valentano and the locations in the list.
+            Departures from Valentano and the locations in the list between 11:00 and 12:00.
           </p>
 
           <h3 className="font-semibold">During</h3>
           <p className="mb-4">
-            Shuttle available on standby.
+            A shuttle service will be available through the event.
           </p>
 
           <h3 className="font-semibold">Return</h3>

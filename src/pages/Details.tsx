@@ -78,7 +78,7 @@ const Details = () => {
                         <Calendar className="w-4 h-4" />
                         <span className="font-medium">
                           {/* CUSTOMIZE: Time */}
-                          12:30 PM - 13:30 PM
+                          12:45 PM - 13:30 PM
                         </span>
                       </div>
                       <p className="text-black">
