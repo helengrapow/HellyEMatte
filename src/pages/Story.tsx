@@ -114,7 +114,7 @@ const Story = () => {
                   You can find hotels and rooms on Booking and Airbnb.
                   <br />
                   <br />
-                  There are also apartments from the venue owner which not listed online yet, reservations will be possible as of June.
+                  There are also apartments prebooked for our wedding guests. You can reserve them calling at +393935865197
                 </p>
                 <div className="flex justify-between">
                   <span>50/night</span>

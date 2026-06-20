@@ -249,7 +249,7 @@ const Details = () => {
               <h3 className="text-lg font-semibold text-black mb-2">Song Requests</h3>
               <p className="text-black">
                 {/* CUSTOMIZE: Add information about music requests */}
-                Have a song you want to hear at the reception? Let us know in your RSVP and we can potentially make it happen!
+                Have a song you want to hear at the reception? Let us know in your RSVP and we can make it happen!
               </p>
               <Link 
                 to="/rsvp" 
