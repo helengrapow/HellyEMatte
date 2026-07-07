@@ -57,7 +57,7 @@ const RSVP = () => {
                   RSVP Deadline
                 </h3>
                 <p className="text-black">
-                  Please fill in the questionnaire by end of June.
+                  Please fill in the questionnaire by end of July.
                 </p>
               </div>
               <div className="bg-white rounded-lg p-6 shadow-md border border-pale-yellow">
