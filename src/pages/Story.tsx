@@ -250,6 +250,30 @@ const Story = () => {
         </div>
       </div>
 
+    
+          {/* Car Pooling */}
+      <div className="py-16 bg-pale-yellow">
+        <div className="max-w-4xl mx-auto px-4 text-center">
+          <Car className="w-10 h-10 mx-auto mb-4 text-black" />
+
+          <h2 className="text-3xl md:text-4xl font-serif text-black mb-4">
+            Not sure how to get there?
+          </h2>
+
+          <p className="text-lg text-black mb-6">
+            Join our car-pooling WhatsApp group to find a ride, offer an empty seat, or organise a rental car together!
+          </p>
+
+          <a
+            href="https://chat.whatsapp.com/CPz5Z0Af01AGeGXmI9GNdP?s=sw&p=i&mlu=0&ilr=0"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center bg-white text-black font-semibold px-6 py-3 rounded-full shadow-md hover:shadow-lg transition"
+          >
+            Join the WhatsApp group 🚗
+          </a>
+        </div>
+      </div>
     </div>
   );
 };
