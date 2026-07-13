@@ -270,7 +270,7 @@ const Story = () => {
             rel="noopener noreferrer"
             className="inline-flex items-center bg-white text-black font-semibold px-6 py-3 rounded-full shadow-md hover:shadow-lg transition"
           >
-            Join the WhatsApp group 🚗
+            Join the group 🚗
           </a>
         </div>
       </div>
