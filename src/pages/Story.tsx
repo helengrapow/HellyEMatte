@@ -93,7 +93,8 @@ const Story = () => {
             </h2>
             <p className="text-lg text-black max-w-2xl mx-auto">
               We will sleep at the Agriresort of the Ceremony. Unfortunately, the place there is very limited.
-              We will guarantee the shuttle to the locations below.
+              We will provide a shuttle service to and from the locations below. 
+              Most locations have rooms pre-booked for our guests. Please call the property to book (phone numbers are listed below).
             </p>
           </div>
 
