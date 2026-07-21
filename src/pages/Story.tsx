@@ -175,30 +175,6 @@ const Story = () => {
                 </div>
               </div>
             </div>
-            
-            {/* Tenuta Roccaccia */}
-            <div className="bg-white rounded-xl shadow-lg overflow-hidden border border-pale-yellow">
-              <div
-                className="h-48 bg-cover bg-center"
-                style={{
-                  backgroundImage: `url(${import.meta.env.BASE_URL}images/TenutaRoccaccia.jpeg)`,
-                }}
-              />
-              <div className="p-6">
-                <h3 className="text-xl font-semibold text-black mb-2">
-                  Agriturismo Tenuta Roccaccia
-                </h3>
-                <p className="text-sm text-black mb-4">
-                  About 20 minutes from the venue, 2 apartments with common pool.
-                </p>
-                <div className="flex justify-between">
-                  <span>60/night</span>
-                  <a href="https://maps.app.goo.gl/xiJWktpwEadmDJGe8?g_st=iw" target="_blank">
-                    View on Maps
-                  </a>
-                </div>
-              </div>
-            </div>
 
             {/* Camping */}
             <div className="bg-white rounded-xl shadow-lg overflow-hidden border border-pale-yellow">
