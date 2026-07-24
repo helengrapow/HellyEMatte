@@ -164,7 +164,7 @@ const Story = () => {
                   Agriturismo Poggio Delle Conche
                 </h3>
                 <p className="text-sm text-black mb-4">
-                  About 20 minutes from the venue, apartments with common pool and small breakefast included.
+                  About 20 minutes from the venue, apartments with common pool and small breakfast included.
                   The locations are prebooked for our wedding guest so if you wish to reserve call them directly at +393473577182
                 </p>
                 <div className="flex justify-between">
