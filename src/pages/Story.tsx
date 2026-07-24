@@ -140,6 +140,7 @@ const Story = () => {
                 </h3>
                 <p className="text-sm text-black mb-4">
                   About 20 minutes from the venue. It has rooms with shared pool and breakfast included.
+                  <br />
                   NEWS! The locations are now fully booked by our wedding guests.
                 </p>
                 <div className="flex justify-between">
