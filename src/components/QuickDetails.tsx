@@ -18,7 +18,7 @@ const QuickDetails = () => {
     {
       icon: MapPin,
       title: 'Venue',
-      info: 'Fra' Viaco', // CUSTOMIZE: Replace with your venue name and location
+      info: 'Frà Viaco', // CUSTOMIZE: Replace with your venue name and location
     },
     {
       icon: Users,
