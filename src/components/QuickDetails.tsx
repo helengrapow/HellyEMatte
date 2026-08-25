@@ -13,12 +13,12 @@ const QuickDetails = () => {
     {
       icon: Clock,
       title: 'Ceremony Time',
-      info: '12:30', // CUSTOMIZE: Replace with your ceremony time
+      info: '12:45', // CUSTOMIZE: Replace with your ceremony time
     },
     {
       icon: MapPin,
       title: 'Venue',
-      info: 'Fra Viaco', // CUSTOMIZE: Replace with your venue name and location
+      info: 'Fra' Viaco', // CUSTOMIZE: Replace with your venue name and location
     },
     {
       icon: Users,
