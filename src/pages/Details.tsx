@@ -179,8 +179,18 @@ const Details = () => {
                       </div>
                       <p className="text-black">
                         {/* CUSTOMIZE: Description */}
-                        Slow recovery and, for those who still have energy, we can meet for a swim in Lake Bolsena!
-                      </p>
+                        Slow recovery and, for those who still have energy, we can meet for a swim in Lake Bolsena! 
+                        There is also a kiosk by the beach for food and drinks.
+                        </p>
+                        <a
+                            href="https://maps.app.goo.gl/17LFNpErQTBagqSm7"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="inline-flex items-center text-black font-medium hover:text-pale-blue transition-colors mt-4"
+                          >
+                            View on Map
+                          </a>
+                      
                     </div>
                   </div>
                 </div>
