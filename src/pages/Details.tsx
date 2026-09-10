@@ -54,7 +54,7 @@ const Details = () => {
                         <Calendar className="w-4 h-4" />
                         <span className="font-medium">
                           {/* CUSTOMIZE: Time */}
-                          11:30 AM - 12:30 PM
+                          12 PM - 12:45 PM
                         </span>
                       </div>
                       <p className="text-black">
@@ -78,7 +78,7 @@ const Details = () => {
                         <Calendar className="w-4 h-4" />
                         <span className="font-medium">
                           {/* CUSTOMIZE: Time */}
-                          12:45 PM - 13:30 PM
+                          1:00 - 2:00 PM
                         </span>
                       </div>
                       <p className="text-black">
@@ -102,7 +102,7 @@ const Details = () => {
                         <Calendar className="w-4 h-4" />
                         <span className="font-medium">
                           {/* CUSTOMIZE: Time */}
-                          13:30 PM - 6:00 PM
+                          2:00 PM - 6:00 PM
                         </span>
                       </div>
                       <p className="text-black">
@@ -150,7 +150,7 @@ const Details = () => {
                         <Calendar className="w-4 h-4" />
                         <span className="font-medium">
                           {/* CUSTOMIZE: Time */}
-                          7:00 PM - undefined
+                          7:00 PM - 2:30 AM
                         </span>
                       </div>
                       <p className="text-black">
@@ -174,7 +174,7 @@ const Details = () => {
                         <Calendar className="w-4 h-4" />
                         <span className="font-medium">
                           {/* CUSTOMIZE: Time */}
-                          12:00 AM - 16:00 PM
+                          1:00 PM - until late
                         </span>
                       </div>
                       <p className="text-black">
